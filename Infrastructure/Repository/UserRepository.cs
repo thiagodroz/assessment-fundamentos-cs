@@ -7,6 +7,16 @@ namespace Infrastructure.Repository
 {
     public class UserRepository : IUserRepository
     {
+        public bool ComparePassword(string username, string password)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Create(User user)
+        {
+            throw new NotImplementedException();
+        }
+
         public User GetByUserName(string username)
         {
             throw new NotImplementedException();

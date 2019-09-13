@@ -6,5 +6,8 @@ namespace Domain.Model
 {
     public class Friend
     {
+        public string FirstName { get; set; }
+        public string Surname { get; set; }
+        public DateTime Birthday { get; set; }
     }
 }
